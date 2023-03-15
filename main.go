@@ -47,8 +47,10 @@ func executeSql(c *gin.Context) {
 }
 
 func main() {
-    router := gin.Default()
+//    router := gin.Default()
+    router := gin.New()
     router.POST("/", executeSql)
 
-    router.Run("localhost:8080")
+//    router.Run("localhost:8080")
+    router.Run("0.0.0.0:8080")
 }
