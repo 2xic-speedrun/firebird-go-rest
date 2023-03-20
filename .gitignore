@@ -1,3 +1,5 @@
 .env
 dist
 .DS_Store
+benchmark_config.json
+firebird_go_rest

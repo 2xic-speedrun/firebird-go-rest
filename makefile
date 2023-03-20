@@ -8,3 +8,6 @@ build_windows:
 
 build_current:
 	go build -o ./dist/
+
+run: build_current
+	./dist/firebird_go_rest
